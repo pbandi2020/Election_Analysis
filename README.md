@@ -1,15 +1,16 @@
 # Election_Analysis
 
-## Overview of Projec
-This project provides stock market analysis over last few yeas across multiple stocks. The effort will also focus on accuracy, efficiencies, data formatting and customer experience.  
+## Overview of Project
+This project is focused in elections data analysis. The key metric analysed across multiple dimensions is the vote count. Let's take a look at the diffrent view point of elections data and how a winner is identifies based on popular votes registered by citizens across county for a particular state. There are certain assumations with the data analysis which we will discuss in our summary sections for the project.
 
 ### Purpose & Scope of this Effort
-* Year Parameter - Input control allowing the user the ablity to enter the year of analysis on the dataset to be processed.
-* Title - Dynamic title with the year parameter be the variable value
-* Column Headers - Column headers to support data visualization
-* Dynamic grid - data population and YTD return calculation
-* Formatting - Font, style and conditional formatting to provide visualization on negative and positive returns
-* Performance - Ensuring the code can handle large datasets and meet customer experience.
+* Fact 1 - To provide a summary of total votes registered across all counties and candidates.
+* Fact 2 - To provide a summary of total popular votes registered by county
+* Fact 3 - To provide a summary of tatal popular votes registered by candidate
+* Fact 4 - Based on populat votes received to identify the winner
+** By Candiate
+** By County
+
 
 # Results
 ### Performance Analysis based on programming logic implemented
