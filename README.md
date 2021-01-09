@@ -8,8 +8,8 @@ This project is focused in elections data analysis. The key metric analysed acro
 - Fact 2 - To provide a summary of total popular votes registered by county
 - Fact 3 - To provide a summary of tatal popular votes registered by candidate
 - Fact 4 - Based on populat votes received to identify the winner
-1. By Candiate
-2. By County
+  1. By Candiate
+  2. By County
 
 
 # Results
