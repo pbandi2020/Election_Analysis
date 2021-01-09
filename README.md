@@ -15,44 +15,16 @@ This project is focused in elections data analysis. The key metric analysed acro
 # Results
 ### Election Analysis Report
 * Our challenge 3 analysis focused on a single dimension analysis. As per out output her is what is infered from from output.
-* Turnaround of votes or the county that received the most popular votes is **"Denver"** county. Over **"82%"** of votes vered recorded in this county and as per out analysis the winner of the election is **"Diana DeGette"** who received **"272,892"** votes of the total **"306,055"** of total votes registered across all counties.
-
-<!--![RunTime Comparison Report](/Resources/RuntimeComparisonTable.png) -->
+* Turnaround of votes or the county that received the most popular votes is **Denver** county. Over **82%** of votes were recorded in this county and as per our analysis the winner of the election is **Diana DeGette** who received **272,892** votes of the total received popular votes of **306,055** registered across all counties. An out text file is aviable in **Analysis\election_results.txt** and when executing the program the same is printed to the terminal. 
 
 <img src=/Resources/RuntimeComparisonTable.png alt="Runtime Analysis Report"/>
  
-### VBA Challenge Results - Most efficient refactored code
-* As discussed earlier, a final result can be achived by many diffrent coding practice. The result achieved using an array for the ticker and using a single loop is the most efficient logic. However, this logic is with the assumption the dataset is sorted by ticker column and closing date. The key to data analysis is sorting the dataset. This is a step we did not perrform as the 2017 & 2018 dataset provided for module 2 challenge was sorted and we knew that we had only 12 stocks to process for end results. 
-
- <table>
- <tr>   
-    <td align="center"> 2017 VBA_Challege output </td>
-    <td align="center"> 2018 VBA_Challege output</td>
-  </tr> 
-  <tr>   
-    <td valign="top"> <img src="/Resources/2017%20AllstocksAnalysisRefactor.png" width="500" /> </td>
-    <td valign="top"> <img src="/Resources/2018%20AllstocksAnalysisRefactor.png" width="500" /> </td>
-  </tr>     
-</Table> 
-
-### Comparing the VBA Challenge results to two other alternate logic
-* One result below uses nested loop logic. The other option is very similar to the final refactored code, the only diffrence is where the output data table to created.
-
-<Table>
- <tr>   
-    <td align="center"> AllStocksAnalysisRefactor V2 </td>
-    <td align="center"> AllStocksAnalysisRefactor V1 </td>
-  </tr> 
-  <tr>   
-    <td valign="top"> <img src="/Resources/2018AllStocksAnalysisRefactorV2.png" width="500" /> </td>
-    <td valign="top"> <img src="/Resources/2018AllStocksAnalysisRefactorV1.png" width="500"  width="500" /> </td>
-  </tr>     
-</Table> 
-                                                                                                                                                                         
+                                                                                                                                                                      
 ### Challenges and Difficulties Encountered
-* As a programmer, we look for **"What, When, Why, Where and Who "** as part of the requirements. This exercise was **"very challenging as the HOW was defined"**. Especially it took  several debugging activities to determine logical error in step 3d. As I was using a "nested if" to write the logic and following the directions in step 3d was resulting in a wrong index and wrong output. Since the pseudo-code was not very clear and step 2a & 2b asked to use "nested For Loop" was misguiding the logical flow.   
+* I am fairly new to Python programming and hence getting the right syntax, understanding the error and debugging was the most challenging part of this exercise but the exampled is the module was very helpful in getting to completion of the project. 
 
-## Summary
-  - Our returns are based on closing prices on the first and last market days of the year. Based on this data we may show postive or negative returns for a full year, however we would not know weekly/bi-weekly, monthly or quaterly trends. Just by looking at EOY returns will allow for portfolio changes yearly whereby missing out on some potential profits/limiting losses during shorter frequencies.
-  - Having availability of hourly trends will also help in some profit taking during the day or potentailly readjusting portfolios
-  
+### My Conclusion Summary on the Challenge Results 
+1. To be mre accurate in termining the winner if the election the candidate results must be broken by county and candidate to determine the winner
+2. The data provided only has county dimension. So we really do not know which state the county is in hence our analysis is with the assumtion all these counties are in one state.
+3. In general candidates do not context in multiple counties but our results by candidate is taking all counties into account. Hence declaring a winner by total registered votes across counties is not a proper way of determining a winner of the elections. And not knowing the state associated to the county is another gap in data avaiable to declare a winner.
+4. Next, since we do not know how many registered voters are there is each county, we cannot really determine the percentage of votes recorded. In other words **Expected Vs Registered **
