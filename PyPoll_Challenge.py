@@ -102,11 +102,11 @@ with open(file_to_save, "w") as txt_file:
         # 6c: Calculate the percentage of votes for the county.
         countyvote_percentage = float(countyvotes) / float(total_votes) * 100
         county_results = (
-            f"{county_name}: {countyvote_percentage:.1f}% ({countyvotes:,})")
+            f"{county_name}: {countyvote_percentage:.1f}% ({countyvotes:,})\n")
 
          # 6d: Print the county results to the terminal.
         # print(f'County Results:  {county_votes}: {countyvote_percentage: .1f}% {countyvotes:,}s')
-        print(county_results)  
+        print(county_results,end="")  
 
          # 6e: Save the county votes to a text file.
         txt_file.write(county_results)
@@ -119,9 +119,9 @@ with open(file_to_save, "w") as txt_file:
 
     # 7: Print the county with the largest turnout to the terminal.
     winning_county_summary = (
-        f"---------------------------\n"
+        f"--------------------------------\n"
         f"Largest County Turnaround: {winning_county}\n"
-        f"---------------------------\n")
+        f"--------------------------------\n")
     print(winning_county_summary)
 
     # 8: Save the county with the largest turnout to a text file.
@@ -134,7 +134,7 @@ with open(file_to_save, "w") as txt_file:
         votes = candidate_votes.get(candidate_name)
         vote_percentage = float(votes) / float(total_votes) * 100
         candidate_results = (
-            f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})")
+            f"\n{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
 
         # Print each candidate's voter count and percentage to the
         # terminal.
@@ -150,11 +150,11 @@ with open(file_to_save, "w") as txt_file:
 
     # Print the winning candidate (to terminal)
     winning_candidate_summary = (
-        f"\n--------------------------------------------\n"
+        f"\n--------------------------------\n"
         f"Winner: {winning_candidate}\n"
         f"Winning Vote Count: {winning_count:,}\n"
         f"Winning Percentage: {winning_percentage:.1f}%\n"
-        f"--------------------------------------------\n")
+        f"--------------------------------\n")
     print(winning_candidate_summary)
 
     # Save the winning candidate's name to the text file
