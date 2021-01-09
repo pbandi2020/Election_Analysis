@@ -4,17 +4,18 @@
 This project is focused in elections data analysis. The key metric analysed across multiple dimensions is the vote count. Let's take a look at the diffrent view point of elections data and how a winner is identifies based on popular votes registered by citizens across county for a particular state. There are certain assumations with the data analysis which we will discuss in our summary sections for the project.
 
 ### Purpose & Scope of this Effort
-* Fact 1 - To provide a summary of total votes registered across all counties and candidates.
-* Fact 2 - To provide a summary of total popular votes registered by county
-* Fact 3 - To provide a summary of tatal popular votes registered by candidate
-* Fact 4 - Based on populat votes received to identify the winner
-##By Candiate
-##By County
+- Fact 1 - To provide a summary of total votes registered across all counties and candidates.
+- Fact 2 - To provide a summary of total popular votes registered by county
+- Fact 3 - To provide a summary of tatal popular votes registered by candidate
+- Fact 4 - Based on populat votes received to identify the winner
+1 By Candiate
+2 By County
 
 
 # Results
-### Performance Analysis based on programming logic implemented
-* The below table provided a comparison report and diffrence in logical flow in the code. As much as we need to provide data accuracy, performance is also equally important. For diffrence in code logic, refer to the subroutine in the macro file. The table below lists each subroutine name. Every subroutine returns the same result set. the only diffrence is the runtime. Screen shots for each of the analysis is saved to resources folder and the file name should match the subroutine name.
+### Election Analysis Report
+* Our challenge 3 analysis focused on a single dimension analysis. As per out output her is what is infered from from output.
+* Turnaround of votes or the county that received the most popular votes is **"Denver"** county. Over **"82%"** of votes vered recorded in this county and as per out analysis the winner of the election is **"Diana DeGette"** who received **"272,892"** votes of the total **"306,055"** of total votes registered across all counties.
 
 <!--![RunTime Comparison Report](/Resources/RuntimeComparisonTable.png) -->
 
