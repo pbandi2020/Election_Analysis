@@ -1,13 +1,13 @@
 # Election_Analysis
 
 ## Overview of Project
-This project is focused on elections data analysis. The key metric analyzed across multiple dimensions is the vote count. Let's take a look at the diffrent view point of elections data and how a winner is identifies based on popular votes registered by citizens across county for a particular state. There are certain assumations with the data analysis which we will discuss in our summary sections for the project.
+This project is focused on elections data analysis. The key metric analyzed across multiple dimensions is the vote count. Let's take a look at diffrent points of view for elections data and how a winner is identifies based on popular votes registered by citizens across the county for a particular state. There are certain assumations within data analysis which we will discuss in our summary sections for the project.
 
 ### Purpose & Scope of this Effort
 1. Fact 1 - To provide a summary of total votes registered across all counties and candidates.
-2. Fact 2 - To provide a summary of total popular votes registered by county
-3. Fact 3 - To provide a summary of tatal popular votes registered by candidate
-4. Fact 4 - Based on populat votes received to identify the winner
+2. Fact 2 - To provide a summary of total popular votes registered by each county
+3. Fact 3 - To provide a summary of total popular votes registered by candidate
+4. Fact 4 - Based on popular votes received to identify the winner
   * By Candiate
   * By County
 
