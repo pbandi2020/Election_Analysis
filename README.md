@@ -27,4 +27,4 @@ This project is focused on election results and analysing the winner of the elec
 1. To be accurate in determining a winner, the candidate results must be broken by 2 dimensions (county & candidate).
 2. The data provided only has county dimension. So we really do not know which state the county is in. Hence our analysis is with the assumption all these counties are in one state.
 3. Candidate do not contest in multiple counties but, our results by candidate is taking all counties into account. Hence declaring a winner by total registered votes across counties is not a proper way of determining a winner of the elections. And not knowing the state associated to the county is another gap in data avaiable to declare a winner.
-4. Fianlly, since we do not know how many registered voters are there is each county, we cannot really determine the percentage of votes recorded. In other words **Expected Vs Registered **
+4. Fianlly, since we do not know how many registered voters are there is each county, we cannot really determine the percentage of votes recorded. In other words **Expected Vs Registered**
