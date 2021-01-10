@@ -1,7 +1,7 @@
 # Election_Analysis
 
 ## Overview of Project
-This project is focused on elections data analysis. The key metric analyzed across multiple dimensions is the vote count. Let's take a look at different points of view for elections data and how a winner is identifies based on popular votes registered by citizens across the county for a particular state. There are certain assumations within data analysis which we will discuss in our summary sections for the project.
+This project is focused on election results and analysing the winner of the election. The key metric analyzed across multiple dimensions is the **Registered Vote** count.  The Module 3 challenge output is based on certain assumtions in data points, as part of the project conclusion report we will review these assumptions and will take these data points into considerations into future report enhancements.
 
 ### Purpose & Scope of this Effort
 1. Fact 1 - To provide a summary of total votes registered across all counties and candidates.
@@ -14,8 +14,8 @@ This project is focused on elections data analysis. The key metric analyzed acro
 
 # Results
 ### Election Analysis Report
-* Our challenge 3 analysis focused on a single dimension analysis. As per out output her is what is infered from from output.
-* Turnaround of votes or the county that received the most popular votes is **Denver** county. Over **82%** of votes were recorded in this county and as per our analysis the winner of the election is **Diana DeGette** who received **272,892** votes of the total received popular votes of **306,055** registered across all counties. An out text file is aviable in **Analysis\election_results.txt** and when executing the program the same is printed to the terminal. 
+* All of our challenge 3 election data analysis is based on a single dimension. Here is a summary of our challenge result set.
+* BAsed on the total casted votes, he county that received the most popular votes is **Denver**. Over **82%** of votes were recorded in this county and as per our analysis the winner of the election is **Diana DeGette** who received **272,892** votes of the total received popular votes of **306,055** registered across all counties. The break down of the results are written to a text file and is avaibale for review. Refer to the following path to access the output report **Analysis\election_results.txt** and when executing the program the same is printed to the terminal. 
 
 <img src=/Resources/RuntimeComparisonTable.png alt="Runtime Analysis Report"/>
  
