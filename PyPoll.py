@@ -9,11 +9,12 @@
 
 import csv
 import os
+import datetime as dt
 
 # Declare the file path 
 # print(os.path.join("..", "Resources", "election_results.csv"))
 # input_file = "Resources\election_results.csv"
-# election_data = open(input_file,"r")
+# election_data = open(inp!ut_file,"r")
 # print(election_data)
 
 input_file = os.path.join("Resources\election_results.csv")
