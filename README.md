@@ -23,7 +23,8 @@ This project is focused on election results and analysing the winner of the elec
 * I am fairly new to Python programming and hence getting the right syntax, understanding the error and debugging was the most challenging part of this exercise but the exampled is the module was very helpful in getting to completion of the project. 
 
 ### My Conclusion Summary on the Challenge Results 
-1. To be mre accurate in termining the winner if the election the candidate results must be broken by county and candidate to determine the winner
-2. The data provided only has county dimension. So we really do not know which state the county is in hence our analysis is with the assumtion all these counties are in one state.
-3. In general candidates do not context in multiple counties but our results by candidate is taking all counties into account. Hence declaring a winner by total registered votes across counties is not a proper way of determining a winner of the elections. And not knowing the state associated to the county is another gap in data avaiable to declare a winner.
-4. Next, since we do not know how many registered voters are there is each county, we cannot really determine the percentage of votes recorded. In other words **Expected Vs Registered **
+#### *For accuracy in results couple other data points are needed and we can take these into consideration in our next phase of the project.*
+1. To be accurate in determining a winner, the candidate results must be broken by 2 dimensions (county & candidate).
+2. The data provided only has county dimension. So we really do not know which state the county is in. Hence our analysis is with the assumption all these counties are in one state.
+3. Candidate do not contest in multiple counties but, our results by candidate is taking all counties into account. Hence declaring a winner by total registered votes across counties is not a proper way of determining a winner of the elections. And not knowing the state associated to the county is another gap in data avaiable to declare a winner.
+4. Fianlly, since we do not know how many registered voters are there is each county, we cannot really determine the percentage of votes recorded. In other words **Expected Vs Registered **
