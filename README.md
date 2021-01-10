@@ -1,7 +1,7 @@
 # Election_Analysis
 
 ## Overview of Project
-This project is focused on election results and analysing the winner of the election. The key metric analyzed across multiple dimensions is the **Registered Vote Count**.  The Module 3 challenge output is based on certain assumtions in the data points, as part of the project conclusion report we will review these assumptions and will take these data points into considerations into future report enhancements.
+This project is focused on election results and analysing the winner of Coloroda board of elections. The key metric analyzed across multiple dimensions is the **Casted Vote Count**.  The Module 3 challenge output is based on certain available data points, as part of the project conclusion report we will review additional data points that should be consdered for future report enhancements.
 
 ### Scope of this Effort
 1. Fact 1 - To provide a summary of total votes registered across all counties and candidates.
@@ -29,8 +29,7 @@ This project is focused on election results and analysing the winner of the elec
 * County that received highest turnoround is **Denver**
 * Winner of the election is **Diana DeGette**
 
-#### *Summary on missing data point to provide an accurate result*
+#### *Additional data points for future enahancement and what are it's benefits*
 1. To be accurate in determining a winner, the candidate results must be broken by 2 dimensions (county & candidate).
-2. The data provided only has county dimension. So we really do not know which state the county is in. Adding this data point woudl be a good future enhancement.
-3. Candidate do not contest in multiple counties but, our result by candidate is taking all counties into account. Hence declaring a winner by total registered votes across counties is not a proper way of determining a winner of the elections. And not knowing the state associated to the county is another gap in data avaiable to declare a winner.
-4. Fianlly, since we do not know how many registered voters are there is each county, we cannot really determine the percentage of votes recorded. In other words **Expected Vs Registered**
+2. Candidate do not contest in multiple counties but, our result by candidate is taking all counties into account when determining a winner for Colorado. Hence declaring a winner by total registered votes across counties is not a proper way of determining a winner of the elections. 
+3. Fianlly, since we do not know how many registered voters are there is each county, we cannot really determine the percentage of votes recorded. In other words **Expected Vs Registered**
