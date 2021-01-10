@@ -14,7 +14,7 @@ This project is focused on election results and analysing the winner of the elec
 # Results
 ### Election Analysis Report
 #### *All of our challenge 3 election data analysis is based on a single dimension. Here is a summary of our challenge result set.*
-* Based on the total casted votes, the county that received the most popular votes is **Denver**. Over **82%** of votes were recorded in this county and as per our analysis the winner of the election is **Diana DeGette** who received **272,892** votes of the total received popular votes of **306,055** registered across all counties. The break down of the results are written to a text file and is avaibale for review. Refer to the following path to access the output report **Analysis\election_results.txt** and when executing the program the same is printed to the terminal. 
+* Based on the total casted votes, the county that received the most popular votes is **Denver**. Over **82%** of votes were recorded in this county and as per our analysis the winner of the election is **Diana DeGette** who received **272,892** votes of the total received popular votes of **306,055** casted across all counties. The break down of the results are written to a text file and is avaibale for review. Refer to the following path to access the output report **Analysis\election_results.txt** and when executing the program the same is printed to the terminal. 
 
 <img src=/Resources/RuntimeComparisonTable.png alt="Runtime Analysis Report"/>
  
